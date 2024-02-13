@@ -38,9 +38,6 @@
       .new-expense button {
         font-size: 1.4rem;
       }
-      .hide {
-        display: none;
-      }
     </style>
   </head>
   <body>
@@ -58,9 +55,20 @@
               <th>Total</th>
             </tr>
           </thead>
-          <tbody class="outputBody"></tbody>
+          <tbody class="outputBody">
+            <tr>
+              <td>first</td>
+              <td>$10</td>
+              <td>$10</td>
+            </tr>
+            <tr>
+              <td>food</td>
+              <td>$15</td>
+              <td>$25</td>
+            </tr>
+          </tbody>
         </table>
-        <section id="input" class="new-expense hide">
+        <section id="input" class="new-expense">
           <input id="description" type="text" placeholder="Description" />
           <input id="amount" type="text" placeholder="Amount" />
           <button id="submit">Enter</button>

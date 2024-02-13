@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "ffc3",
+      "title": "first",
+      "body": "First Post!"
+    },
+    {
+      "id": "852f",
+      "title": "first",
+      "body": "post"
+    },
+    {
+      "id": "3e4f",
+      "title": "second",
+      "body": "post"
+    },
+    {
+      "id": "d7ff",
+      "title": "third",
+      "body": "post"
+    },
+    {
+      "id": "2ad5",
+      "title": "fourth",
+      "body": "post"
+    },
+    {
+      "id": "6893",
+      "title": "long",
+      "body": "We sat down for an interview with Rich Harris, the creator of Svelte and SvelteKit. In this video, Rich dives deep into the philosophy, features, and future of Svelte. Harris explains how Svelte simplifies web development, making it more accessible and improving app performance by compiling code at build time. He discusses the evolution of Svelte from its early days in newsrooms to t"
+    }
+  ]
+}
