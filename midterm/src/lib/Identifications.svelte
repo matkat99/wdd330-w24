@@ -13,3 +13,23 @@
     </li>
   {/each}
 </ul>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    columns: 250px 3;
+
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  li {
+    width: 250px;
+    /* -webkit-column-break-inside: avoid; */
+    /* page-break-inside: avoid; */
+    break-inside: avoid;
+    border: 1px solid;
+    padding: 1em;
+    margin-bottom: 0.5em;
+  }
+</style>

@@ -29,3 +29,10 @@
     </li>
   {/each}
 </ul>
+
+<style>
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
